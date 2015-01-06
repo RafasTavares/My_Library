@@ -10,7 +10,6 @@ html {
     background-image: -webkit-linear-gradient(#241909, #2c1e0b 220px, #b87e2c 220px, #b87e2c 222px, #A87328 222px, #A87328 228px, #986824 228px, #986824 230px);
     background-image: linear-gradient(#241909, #2c1e0b 220px, #b87e2c 220px, #b87e2c 222px, #A87328 222px, #A87328 228px, #986824 228px, #986824 230px);
     background-size: 10px 230px;
-    box-shadow: 0px 1000px 0px 400px #7A7668;
 }
 .book {
     height: 200px;
@@ -42,16 +41,19 @@ html {
     background-color: #9ACD32;
     border-left: 2px solid #6B8E23;
     border-right: 2px solid #ADFF2F;
+    color: white;
 }
 .book-blue {
     background-color: #1E90FF;
     border-left: 2px solid #4169E1;
     border-right: 2px solid #00BFFF;
+    color: white;
 }
 .book-umber {
     background-color: #B8860B;
     border-left: 2px solid #66320f;
     border-right: 2px solid #422009;
+     color: white;
 }
 .book-yellow {
     background-color: #FFD700;
@@ -63,8 +65,9 @@ html {
     background-color: #FF4500;
     border-left: 2px solid #FF6347;
     border-right: 2px solid #FF0000;
+    color: white;
 }
-.book h2 {
+.h2 {
     padding: 0;
     font-size: 0.8em;
     -webkit-transform-origin: 0% 0%;
@@ -74,8 +77,9 @@ html {
     -ms-transform: rotate(0.25turn) translateY(-35px);
     transform: rotate(0.25turn) translateY(-35px);
     width: 170px;
+    font-weight: bold;
 }
-.book h3 {
+.h3 {
     padding: 0;
     font-size: 0.7em;
     -webkit-transform-origin: 0 0;
@@ -85,4 +89,5 @@ html {
     -ms-transform: rotate(0.25turn) translateY(-15px) translateX(-20px);
     transform: rotate(0.25turn) translateY(-15px) translateX(-20px);
     width: 150px;
+    font-weight: bold;
 }
